@@ -18,6 +18,7 @@ const Profile = () => {
        <h1>userId : {user.uid}  </h1>
        
     </div>
+    {/* <Link >Logout</Link> */}
     </div>
   )
 }

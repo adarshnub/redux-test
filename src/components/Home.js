@@ -34,7 +34,7 @@ const Home = () => {
      
       {user && 
         <>
-        <Header />
+       
         <h1
         className="text-white font-semibold
         flex mt-6 ml-4 font-"

@@ -12,10 +12,10 @@ function Header() {
   };
 
   const user = useSelector(selectUser);
-//   console.log(selectUser);
+
 
   return (
-    <div className="header flex justify-end mr-8"
+    <div className="header flex justify-end mr-3"
     >
       <button
       className="bg-red-400 px-4 py-1 rounded-xl button1"

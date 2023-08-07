@@ -59,6 +59,10 @@ const Quote = () => {
     setSelectedTag(selectedTag);
   };
 
+  // const handleNoUserBookmarkClick = () => {
+  //   alert('login to use BOOKMARK feature');
+  // }
+
   return (
     <div>
       <h1 className="text-2xl text-white font-bold mt-6">Quotify</h1>
@@ -97,15 +101,17 @@ const Quote = () => {
                   :
                   <>
                    <button
-                  
+                  // onClick={handleNoUserBookmarkClick}
                   className={
                     isBookmarked
                       ? "bg-blue-700 px-4 py-2 rounded-lg hover:bg-blue-400 hover:font-bold"
                       : "bg-red-700 px-4 py-2 rounded-lg hover:bg-red-400 hover:font-bold"
                   }
                 >
-                 <Link to="/login"> Add Bookmark</Link>
+                 
+                 <Link to="/login" > Add Bookmark</Link>
                 </button>
+               
                   </>
                }
               </div>
