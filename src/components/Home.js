@@ -38,8 +38,12 @@ const Home = () => {
         <h1
         className="text-white font-semibold
         flex mt-6 ml-4 font-"
-        >Welcome, {user.email.split("@")[0]}
+        >Welcome, {user.displayName}!
         </h1>
+        
+           
+          
+            
         </>
        }
       <Quote />

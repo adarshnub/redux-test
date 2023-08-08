@@ -13,6 +13,7 @@ import RootLayout from "./components/RootLayout";
 import Login from "./components/Login";
 import Profile from "./components/Profile";
 import ProtectedRoutes from "./components/ProtectedRoutes";
+import Register from "./components/Register";
 
 function App() {
   const router = createBrowserRouter(
@@ -24,7 +25,7 @@ function App() {
           <Route path="/bookmark" element={<Bookmark />} />
          
         </Route>
-       
+        <Route path="register" element={<Register />} />
         <Route path="/login" element={<Login />} />
       </Route>
     )

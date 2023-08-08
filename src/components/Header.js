@@ -18,7 +18,7 @@ function Header() {
     <div className="header flex justify-end mr-3"
     >
       <button
-      className="bg-red-400 px-4 py-1 rounded-xl button1"
+      className="bg-red-400 px-4 py-1 rounded-xl button1 hover:bg-red-600"
       onClick={logoutOfApp}>Logout</button>
     </div>
   );
