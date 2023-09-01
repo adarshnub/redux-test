@@ -81,7 +81,6 @@ const Register = () => {
           />
           <button
             type="submit"
-            to="/profile"
             onClick={register}
             className="bg-red-400 px-4 py-1 rounded-xl w-3/5 font-bold items-center mx-auto hover:bg-red-600 hover:text-white"
           >
