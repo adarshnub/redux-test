@@ -1,5 +1,7 @@
 website deployed live on VERCEL  :  https://redux-test-henna.vercel.app/
 
+#Stack used : React, Tailwind,reduxtoolkit
+
 #This is a personalised random quotes generating app
 #Features : 
 #generate quote by a certain tag/random  
